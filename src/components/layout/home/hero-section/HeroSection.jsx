@@ -29,6 +29,7 @@ const HeroSection = () => {
   return (
     <section className="hero-section">
       <div className="grid grid-cols-1 md:grid-cols-4">
+
         <div className="col-span-1 relative shadow-lg h-screen object-cover flex items-center">
           <div className="relative w-full h-full overflow-hidden">
             {images.map((img, index) => (
@@ -58,10 +59,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div
-          className="col-span-1 md:col-span-3 p-4 bg-slate-200 hero-section-two"
-          style={{ backgroundColor: "#DFF2EB" }}
-        >
+        <div className="col-span-1 md:col-span-3 p-4" style={{ backgroundColor: "#DFF2EB" }}>
           <div className="flex flex-col md:flex-row p-5 md:px-20 justify-between">
             <div className="flex flex-col items-start w-full">
               <h1 className="text-[22px] md:text-[40px] font-bold">Hello,</h1>
@@ -103,6 +101,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
