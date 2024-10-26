@@ -72,7 +72,7 @@ const HomePartThree = () => {
         >
           {portfolioList.map((item, index) => (
             <div
-              id={index}
+              key={index}
               className="p-2 flex flex-col m-2 rounded-lg bg-purple-100
                 transition-all ease-in-out group hover:scale-110"
             >
