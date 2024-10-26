@@ -1,12 +1,12 @@
 {
-  "homepage":"https://tejaspawar2026.github.io/task-portfolio",
+  "homepage": "https://tejaspawar2026.github.io/task-portfolio",
   "name": "task-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
