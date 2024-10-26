@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 import LinkedInLogo from "../../../common/icons/LinkedIn.jsx";
 import GitHubLogo from "../../../common/icons/GitHub.jsx";
 // import HeroBg from "../../../../assets/img-categ-2/hero-background-2.jpg";
-// import "./HeroSection.css";
+import "./HeroSection.css";
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -59,7 +59,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="col-span-1 md:col-span-3 p-4" style={{ backgroundColor: "#DFF2EB" }}>
+        <div className="col-span-1 md:col-span-3 p-4 hero-part-two">
           <div className="flex flex-col md:flex-row p-5 md:px-20 justify-between">
             <div className="flex flex-col items-start w-full">
               <h1 className="text-[22px] md:text-[40px] font-bold">Hello,</h1>
@@ -67,7 +67,7 @@ const HeroSection = () => {
                 <h1 className="text-[22px] md:text-[40px] font-bold mr-3">
                   I am
                 </h1>
-                <h1 className="text-[22px] md:text-[40px] font-bold text-purple-600">
+                <h1 className="text-[22px] md:text-[40px] font-bold" style={{ color:"#4A628A" }}>
                   <Typewriter
                     options={{
                       strings: [
@@ -81,7 +81,7 @@ const HeroSection = () => {
                   />
                 </h1>
               </div>
-              <p className="mt-3 text-gray-400 text-[15px] md:text-[15px]">
+              <p className="mt-3 text-white text-[15px] md:text-[15px]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Excepturi dolorum sunt eligendi vitae minus. Totam ea asperiores
                 sunt unde nam eos neque pariatur iste sint.
@@ -91,10 +91,10 @@ const HeroSection = () => {
                 <GitHubLogo />
               </div>
               <div className="flex items-center gap-3 my-2">
-                <button className="transition-transform duration-300 ease-in-out transform hover:scale-105 bg-purple-600 px-4 py-2 rounded-md text-white">
+                <button className="transition-transform duration-300 ease-in-out transform hover:scale-105 px-4 py-2 rounded-md text-white" style={{ backgroundColor:"#4A628A" }}>
                   Resume
                 </button>
-                <button className="transition-transform duration-300 ease-in-out transform hover:scale-105 bg-white border border-purple-600 px-4 py-2 rounded-md text-purple-600">
+                <button className="transition-transform duration-300 ease-in-out transform hover:scale-105 bg-white px-4 py-2 rounded-md" style={{ color:"#4A628A" }}>
                   Read More
                 </button>
               </div>

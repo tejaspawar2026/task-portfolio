@@ -17,7 +17,9 @@ const Main = () => {
   return (
     <div className="App">
       <AppNavbar />
-      <RoutesConfig />
+      <main>
+        <RoutesConfig />
+      </main>
       <Footer />
     </div>
   );
