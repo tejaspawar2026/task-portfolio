@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-slate-200 shadow-md">
+      <nav className="shadow-md" style={{ backgroundColor: '#DFF2EB' }}>
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <img src={AppLogo} alt="App Logo" className="w-10 h-10 bg-white object-cover rounded-full hover:cursor-pointer" />
@@ -53,7 +53,7 @@ const Navbar = () => {
             isOpen ? "max-h-screen" : "max-h-0"
           } overflow-hidden transition-max-height duration-300 ease-in-out md:hidden`}
         >
-          <div className="bg-slate-200">
+          <div style={{ backgroundColor: '#DFF2EB' }}>
             <div className="flex flex-col">
               {links.map((link) => (
                 <Link
