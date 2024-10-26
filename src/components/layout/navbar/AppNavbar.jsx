@@ -13,9 +13,7 @@ const Navbar = () => {
   const links = [
     { path: "/", label: "Home" },
     { path: "/aboutme", label: "About Me" },
-    { path: "/skills", label: "Skills" },
     { path: "/portfolio", label: "Portfolio" },
-    { path: "/companies", label: "Companies" },
     { path: "/contactme", label: "Contact Me" },
   ];
 

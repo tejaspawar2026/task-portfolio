@@ -62,7 +62,7 @@ const HomePartTwo = () => {
               </div>
 
               <div className="col-span-1 md:col-span-2 md:px-10">
-                <div className="about-descrp bg-white px-2">
+                <div className="about-descrp px-2">
                   <p className="text-justify text-[15px] md:text-[18px] mb-5">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Doloremque quas natus est, dolorem deleniti nam temporibus

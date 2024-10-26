@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import About from "../components/layout/home/home-part-two/HomePartTwo.jsx";
 
 const AboutPage = () => {
   return (
-    <div>
-      About page
-    </div>
-  )
-}
+    <>
+      <div>
+        <About />
+      </div>
+    </>
+  );
+};
 
-export default AboutPage
+export default AboutPage;
